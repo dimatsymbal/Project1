@@ -1,0 +1,61 @@
+.picOfCartochka1{
+  position: absolute;
+  width: 300px;
+height: 219px;
+left: 17%;
+top: 30%;
+
+background: #F5F5F5;
+border-radius: 0px;
+}
+
+.titleOfCartochka1{
+  
+position: absolute;
+width: 119px;
+height: 20px;
+left: 23.6%;
+top: 71%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+
+}
+
+
+.textOfCartochka1{
+  position: absolute;
+width: 297px;
+height: 66px;
+left: 17%;
+top: 78%;
+
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* or 147% */
+
+text-align: center;
+
+color: #333333;
+}
+
+
+
+
+        <div class="cartochka1">
+
+          <img src="/photos/risunok1.png" alt="risunok1" class="picOfCartochka1">
+
+          <h4 class="titleOfCartochka1">SET a target</h4>
+
+          <p class="textOfCartochka1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+
+        </div>

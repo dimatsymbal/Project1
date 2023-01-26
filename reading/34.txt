@@ -1,0 +1,212 @@
+<div class="block__3">
+      <div class="container">
+        <div>
+          <p class="pContent">
+            Minimalist is a full-service digital creative agency located in
+            Ontorio Canada. We focus on design, consulting, technology, and
+            photography. We’ve been building unique digital products, platforms,
+            and experiences for the past 6 years. Let us help your company grow.
+          </p>
+        </div>
+
+        <div class="buttonInBlock__3">
+          <a class="linkInBtnInBlock__3" href="#">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block__4">
+      <div class="container">
+        <div><h2 class="titleInBlock__4">How we make brands thrive</h2></div>
+          <div class="horizontalLineInBlock__4"></div>
+        
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <div class="card">
+              <img src="./photos/risunok1.png" class="card-img-top" alt="...">
+              <div class="card-body" style="padding: 0px;">
+                <h5 class="card-title">SET a target</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 300px;">
+              <img src="./photos/risunok1.png" class="card-img-top" alt="...">
+              <div class="card-body" style="padding: 0px;">
+                <h5 class="card-title">SET a target</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 300px;">
+              <img src="./photos/risunok1.png" class="card-img-top" alt="...">
+              <div class="card-body" style="padding: 0px;">
+                <h5 class="card-title">SET a target</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ________________________________________css_______________________________________
+
+
+
+    .block__3 {
+  position: relative;
+  height: 289px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  background-color: #fefec9;
+  border-radius: 0px;
+}
+
+.pContent {
+  margin: 0px auto;
+  padding-top: 60px;
+  max-width: 940px;
+  height: 75px;
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #47474f;
+}
+
+.buttonInBlock__3 {
+  position: absolute;
+  height: 53px;
+  width: 159px;
+  border: 1px solid #404040;
+  left: 45.75%;
+  top: 70%;
+  background: #fefec9;
+  border-radius: 0px;
+}
+
+.linkInBtnInBlock__3 {
+  text-decoration: none;
+  position: absolute;
+  width: 91px;
+  height: 20px;
+  left: calc(50% - 91px / 2);
+  top: 13px;
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #47474f;
+}
+
+.linkInBtnInBlock__3:hover {
+  transition: 1s;
+  font-size: 16.5px;
+  color: #47474f;
+}
+
+/* ______________________________4block________________________________ */
+
+.block__4 {
+  position: relative;
+  height: 589px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  /* background-color: cadetblue; */
+  border-radius: 0px;
+}
+
+.titleInBlock__4 {
+  position: absolute;
+  width: 394px;
+  height: 36px;
+  left: calc(50% - 394px/2);
+  top: 10px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  /* identical to box height, or 157% */
+  
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #333333;
+}
+
+.horizontalLineInBlock__4 {
+  position: absolute;
+  height: 2px;
+  left: 45.74%;
+  right: 45.74%;
+  top: 74px;
+  max-width: 80px;
+  background: rgba(0, 0, 0, 0.09);
+  border-radius: 0px;
+}
+
+.card {
+  position: absolute;
+
+  margin: auto;
+  top: 188px;
+  width: 300px;
+  height: 519px;
+  border-radius: 0px;
+  border: 0px solid black;
+}
+
+.card-title {
+  margin: auto;
+  width: 119px;
+  height: 20px;
+  left: calc(50% - 119px / 2 - 0.49px);
+  top: 257px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+p.card-text {
+  margin: 0px auto;
+  width: 280px;
+height: 60px;
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}

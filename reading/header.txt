@@ -1,0 +1,68 @@
+.container_header {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.navbar {
+  position: relative;
+  height: 106px;
+}
+
+/* ______________________________leftsideOfNavbar________________________________ */
+
+.leftsideOfNavbar {
+  position: absolute;
+  left: 17%;
+  top: 18px;
+}
+
+.navPhoto {
+  width: 65px;
+  height: 70px;
+  margin-right: 18px;
+}
+
+.navbar-brand {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+/* ______________________________collapse________________________________ */
+
+.collapse {
+  position: absolute;
+  right: 250px;
+  top: 41px;
+}
+
+.nav-link {
+  margin-left: 18px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #404040;
+  padding: 0px;
+}
+
+a.nav-link {
+  padding: 0px;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.navbar-toggler {
+  position: absolute;
+  right: 17%;
+  top: 28.3%;
+}

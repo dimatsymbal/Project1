@@ -1,0 +1,149 @@
+#workfield__7____row {
+  display: flex;
+  justify-content: center;
+  margin-top: 43px;
+}
+
+div#workfield__7____kolonka1.loc {
+  text-align: center;
+  display: block;
+  width: 300px;
+}
+
+div#workfield__7____kolonka2.loc {
+  text-align: center;
+  display: block;
+  width: 300px;
+}
+
+div#workfield__7____kolonka3.loc {
+  text-align: center;
+  display: block;
+  width: 300px;
+}
+
+.PhotoInworkfield__7 {
+  width: 44px;
+  height: 65px;
+  left: calc(50% - 44px / 2 + 0.01px);
+  top: calc(50% - 65px / 2 - 73.45px);
+
+  /* background-image: url(./photos/workfield__7____kolonka1_foto.png); */
+  border-radius: 0px;
+}
+
+.titleUnderPhotoInworkfield__7 {
+  width: 173px;
+  height: 20px;
+  margin-left: calc(50% - 173px / 2 - 0.49px);
+  margin-top: 10.05px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+
+
+
+
+
+@media (max-width: 591px) {
+
+  .workfield__7 {
+    position: relative;
+    height: 1200px;
+    width: 100%;
+  }
+  
+
+
+  div#workfield__7____kolonka1.loc {
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+  }
+
+  div#workfield__7____kolonka2.loc {
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+  }
+
+  div#workfield__7____kolonka3.loc {
+    position: relative;
+    top: 700px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="workfield__7">
+            <h3 class="titleInField__7">LET’s Get in touch</h3>
+            <div class="hrLineInWork__7"></div>
+
+            <div class="wor" id="workfield__7____row">
+              <div class="loc" id="workfield__7____kolonka1" style="width: 310px;">
+                <img class="PhotoInworkfield__7" src="./photos/workfield__7____kolonka1_foto.png" alt="workfield__7____kolonka1_foto">
+                <h3 class="titleUnderPhotoInworkfield__7">MEET US IN PERSON1</h3>
+                <p class="p1">8776 Juniper Street</p>
+                <p class="p2">Unit #204</p>
+                <p class="p3">Merriweather, Ontorio</p>
+                <p class="p4">Canada</p>
+              </div>
+  
+              <div class="loc" id="workfield__7____kolonka2">
+                <img class="PhotoInworkfield__7" src="./photos/workfield__7____kolonka1_foto.png" alt="workfield__7____kolonka1_foto">
+                <h3 class="titleUnderPhotoInworkfield__7">MEET US IN PERSON2</h3>
+                <p class="p1">8776 Juniper Street</p>
+                <p class="p2">Unit #204</p>
+                <p class="p3">Merriweather, Ontorio</p>
+                <p class="p4">Canada</p>
+              </div>
+  
+              <div class="loc" id="workfield__7____kolonka3">
+                <img class="PhotoInworkfield__7" src="./photos/workfield__7____kolonka1_foto.png" alt="workfield__7____kolonka1_foto">
+                <h3 class="titleUnderPhotoInworkfield__7">MEET US IN PERSON3</h3>
+                <p class="p1">8776 Juniper Street</p>
+                <p class="p2">Unit #204</p>
+                <p class="p3">Merriweather, Ontorio</p>
+                <p class="p4">Canada</p>
+              </div>
+
+            </div>
+            
+          </div>

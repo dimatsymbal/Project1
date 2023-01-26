@@ -1,0 +1,191 @@
+<div class="ogranechitel3">
+      <div class="workbox__3">
+        <h3 class="TitleInWork__3">How we make brands thrive</h3>
+        <div class="hrLineInWork__3"></div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col" id="idcol1">
+            <div class="card" id="idCard1">
+              <img src="./photos/risunok1.png" class="card-img-top" alt="risunok1">
+              <div class="card-body">
+
+                <h5 class="card-title1">design a solution</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="idCard2">
+              <img src="./photos/risunok2.png" class="card-img-top" alt="risunok2">
+              <div class="card-body">
+                <h5 class="card-title2">design a solution</h5>
+                <p class="card-text">Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="idCard3">
+              <img src="./photos/risunok3.png" class="card-img-top" alt="risunok3">
+              <div class="card-body">
+                <h5 class="card-title3">track the progress</h5>
+                <p class="card-text">Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ogranechitel3 {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.workbox__3 {
+  position: relative;
+  padding: 0px;
+}
+
+.TitleInWork__3 {
+  position: absolute;
+  width: 394px;
+  height: 36px;
+  margin-left: calc(50% - 394px / 2);
+  margin-top: 79px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.hrLineInWork__3 {
+  position: absolute;
+  height: 2px;
+  width: 80px;
+  top: 143px;
+  left: calc(50% - 80px / 2);
+  background: rgba(0, 0, 0, 0.09);
+  border-radius: 0px;
+}
+
+/* ----------------------------------------CARTOCHKI-----3Block---------------------------------------- */
+
+.row {
+  position: absolute;
+  top: 188px;
+  left: 17%;
+}
+
+#idCard1 {
+  width: 300px;
+  height: 363px;
+  margin-right: 20px;
+  border: 0;
+  border-radius: 0%;
+}
+
+.card-title1 {
+  width: 173px;
+  height: 20px;
+  margin: auto;
+  margin-top: 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.card-text {
+  height: 66px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}
+
+#idCard2 {
+  width: 300px;
+  height: 363px;
+  border: 0;
+  border-radius: 0%;
+}
+
+.card-title2 {
+  width: 173px;
+  height: 20px;
+  margin: auto;
+  margin-top: 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+#idCard3 {
+  width: 300px;
+  height: 363px;
+  border: 0;
+  border-radius: 0%;
+}
+
+.card-title3 {
+  width: 193px;
+  height: 20px;
+  margin: auto;
+  margin-top: 38px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  border: 0;
+  border-radius: 0%;
+}
+
+.card-img-top {
+  border: 0;
+  border-radius: 0%;
+}
+div.card-body {
+  padding: 0px;
+}
+
+/* ______________________________4________________________________ */
+

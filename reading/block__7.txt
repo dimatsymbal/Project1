@@ -1,0 +1,17 @@
+          <div class="loc" id="workfield__7____kolonka2">
+            <img class="Photo2Inworkfield__7" src="./photos/workfield__7____kolonka2_foto.png" alt="workfield__7____kolonka2_foto">
+            <h3 class="titleUnderPhotoInworkfield__7_kolonka1">The traditional way</h3>
+            <p class="p1">8776 Juniper Street</p>
+            <p class="p2">Unit #204</p>
+            <p class="p3">Merriweather, Ontorio</p>
+            <p class="p4">Canada</p>
+          </div>
+
+          <div class="loc" id="workfield__7____kolonka3">
+            <img class="PhotoInworkfield__7" src="./photos/workfield__7____kolonka1_foto.png" alt="workfield__7____kolonka1_foto">
+            <h3 class="titleUnderPhotoInworkfield__7">MEET US IN PERSON3</h3>
+            <p class="p1">8776 Juniper Street</p>
+            <p class="p2">Unit #204</p>
+            <p class="p3">Merriweather, Ontorio</p>
+            <p class="p4">Canada</p>
+          </div>

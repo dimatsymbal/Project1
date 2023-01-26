@@ -1,0 +1,168 @@
+
+  <div class="ogranechitel4">
+    <div class="workbox__4">
+      <h3 class="TitleInWork__4">Recent projects</h3>
+      <div class="hrLineInWork__4"></div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card" id="id4Card1">
+            <img src="./photos/1picBlock4.png" class="card-img-top_InWork__4" alt="1picBlock4">
+            <div class="card-body">
+              <a href="#" class="card-link">woods</a>
+              <p class="cardTextInWork__4">Photography</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" id="id4Card1">
+            <img src="./photos/2picBlock4.png" class="card-img-top_InWork__4" alt="2picBlock4">
+            <div class="card-body">
+              <a href="#" class="card-link2">path</a>
+              <p class="cardText2InWork__4">Website • Photography</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" id="id4Card1">
+            <img src="./photos/1picBlock4.png" class="card-img-top_InWork__4" alt="1picBlock4">
+            <div class="card-body">
+              <a href="#" class="card-link">darkness</a>
+              <p class="cardTextInWork__4">Website</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ogranechitel4 {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.workbox__4 {
+  position: relative;
+  /* min-height: 1469px; */
+  top: 725px;
+  background: #F5F5F5;
+  padding: 0px;
+}
+
+.TitleInWork__4 {
+  position: absolute;
+  width: 230px;
+  height: 36px;
+  left: calc(50% - 230px / 2);
+  top: 79px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.hrLineInWork__4 {
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  top: 143px;
+  left: calc(50% - 80px / 2);
+  background: rgba(0, 0, 0, 0.09);
+  border-radius: 0px;
+}
+
+/* ----------------------------------------CARTOCHKI-----4Block---------------------------------------- */
+
+
+.row {
+  position: absolute;
+  top: 188px;
+  left: 17%;
+}
+
+#id4Card1 {
+  width: 300px;
+  height: 385px;
+  border: 0;
+  border-radius: 0px;
+}
+
+.card-img-top_InWork__4{
+  border: 0;
+  border-radius: 0px;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 19px;
+}
+
+.card-link {
+  width: 69px;
+  height: 20px;
+  margin-left: 115px;
+  margin-top: 19px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase; 
+  color: #333333;
+  text-decoration: none;
+}
+
+.cardTextInWork__4{
+
+width: 84px;
+height: 20px;
+margin-left: calc(50% - 84px/2);
+margin-top: 4px;
+font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #333333;
+}
+
+
+.card-link2{
+  width: 45px;
+height: 20px;
+margin-left: 127px;
+  margin-top: 19px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #333333;
+}
